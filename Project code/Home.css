@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{ 
+    background-color: lightskyblue;
+    padding: 1rem;
+    text-align: center
+}
+.navlist{
+    list-style: none;
+}
+.navitem{
+    display: inline-block;
+    position: relative;
+    margin: 0 1rem;
+}
+.navitem a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5em 1rem;
+    color: white;
+}
+.navitem a:hover{
+    background-color: lightblue;
+    border-radius: 4px;
+}
