@@ -7,6 +7,70 @@
     <link rel="stylesheet" href=Quizzes.css">
 </head>
 <body>
-    
+      <!-- Header + Navigation -->
+  <header>
+    <h1>🌊 Ocean Awareness</h1>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="quizzes.html" aria-current="page">Quizzes</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main quiz area -->
+  <main>
+    <h2>Test Your Knowledge</h2>
+    <p>Answer the questions below to see how much you know about the ocean!</p>
+
+    <!-- Quiz form (validated with HTML5 attributes) -->
+    <form action="results.html" method="get">
+      <fieldset>
+        <!-- <legend> provides an accessible title for the fieldset group -->
+        <legend>Quiz</legend>
+
+        <!-- Question 1 (radio buttons) -->
+        <label for="q1">1. How much of the Earth’s surface is covered by oceans?</label><br>
+        <input type="radio" id="q1a" name="q1" value="50"> <label for="q1a">50%</label><br>
+        <input type="radio" id="q1b" name="q1" value="70"> <label for="q1b">70%</label><br>
+        <input type="radio" id="q1c" name="q1" value="90"> <label for="q1c">90%</label><br><br>
+
+        <!-- Question 2 (short answer text field) -->
+        <label for="q2">2. What is the largest coral reef system?</label><br>
+        <input type="text" id="q2" name="q2" placeholder="Type your answer..." required><br><br>
+
+        <!-- Question 3 (dropdown selection) -->
+        <label for="q3">3. Which of these is a major threat to oceans?</label><br>
+        <select id="q3" name="q3" required>
+          <option value="">--Select an option--</option>
+          <option value="plastic">Plastic pollution</option>
+          <option value="air">Air pollution</option>
+          <option value="desert">Desertification</option>
+        </select><br><br>
+
+        <!-- Question 4 (True/False radio) -->
+        <label for="q4">4. True or False: The ocean produces most of Earth’s oxygen.</label><br>
+        <input type="radio" id="q4a" name="q4" value="true"> <label for="q4a">True</label><br>
+        <input type="radio" id="q4b" name="q4" value="false"> <label for="q4b">False</label><br><br>
+
+        <!-- Question 5 (checkboxes for multiple answers) -->
+        <label for="q5">5. Which animals are marine creatures? (Select all that apply)</label><br>
+        <input type="checkbox" id="q5a" name="q5" value="shark"> <label for="q5a">Shark</label><br>
+        <input type="checkbox" id="q5b" name="q5" value="eagle"> <label for="q5b">Eagle</label><br>
+        <input type="checkbox" id="q5c" name="q5" value="dolphin"> <label for="q5c">Dolphin</label><br>
+        <input type="checkbox" id="q5d" name="q5" value="tiger"> <label for="q5d">Tiger</label><br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Submit Quiz</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ocean Awareness Project | Designed for Accessibility</p>
+  </footer>
 </body>
 </html>
