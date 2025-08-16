@@ -7,62 +7,90 @@
     <link rel="stylesheet" href="Explore.css".css">
 </head>
 <body>
-   <header>
-        <h1>Ocean Awereness</h1>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Explore.html">Explore</a></li>
-                <li><a href="tips.html">Tips</a></li>
-                <li><a href="Quizzes.html">Quizzes</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section>
-            <h2>Amazing Facts About Our Oceans</h2>
-            <ul>
-                <li>The ocean produces over 50% of the world’s oxygen.</li>
-                <li>More than 80% of the ocean remains unexplored.</li>
-                <li>The Great Barrier Reef is the largest living structure on Earth.</li>
-                <li>Plastic pollution is one of the biggest threats to marine life.</li>
-            </ul>
-        </section>
+ <link rel="stylesheet" href="Explore.css">
+</head>
+<body>
+    <!-- Header and navigation -->
+  <header>
+    <h1>Ocean Awareness</h1>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="explore.html" aria-current="page">Explore</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="quizzes.html">Quizzes</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <section>
-            <h2>Ocean Zones</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Zone</th>
-                        <th>Depth</th>
-                        <th>Interesting Fact</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Sunligth Zone</td>
-                        <td>0-200m</td>
-                        <td>Most marine life lives here</td>
-                    </tr>
-                    <tr>
-                        <td>Twilight Zone</td>
-                        <td>200–1000m</td>
-                        <td>Little light, strange creatures</td>
-                    </tr>
-                    <tr>
-                        <td>Midnight Zone</td>
-                        <td>1000m+</td>
-                        <td>Completely dark, high pressure</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Ocean Awareness Project | Designed for Accessibility</p>
-    </footer> 
+  <!-- Main content -->
+  <main>
+    <!-- Facts section using a list -->
+    <section>
+      <h2>Amazing Facts About Oceans</h2>
+      <ul>
+        <li>The ocean produces over 50% of the world’s oxygen.</li>
+        <li>More than 80% of the ocean remains unexplored.</li>
+        <li>The Great Barrier Reef is the largest living structure on Earth.</li>
+        <li>The longest mountain range on Earth is underwater: the Mid-Ocean Ridge.</li>
+        <li>More than 3 billion people depend on the ocean for food.</li>
+      </ul>
+    </section>
+
+    <!-- Table to explain structured data (zones) -->
+    <section>
+      <h2>Ocean Zones</h2>
+      <table>
+        <!-- Caption improves accessibility by explaining the table purpose -->
+        <caption>Different ocean zones and their characteristics</caption>
+        <thead>
+          <tr>
+            <th scope="col">Zone</th>
+            <th scope="col">Depth</th>
+            <th scope="col">Interesting Fact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sunlight Zone</td>
+            <td>0–200m</td>
+            <td>Most marine life lives here</td>
+          </tr>
+          <tr>
+            <td>Twilight Zone</td>
+            <td>200–1000m</td>
+            <td>Little light, strange creatures</td>
+          </tr>
+          <tr>
+            <td>Midnight Zone</td>
+            <td>1000m+</td>
+            <td>Completely dark, high pressure</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Gallery section -->
+    <section>
+      <h2>Gallery of Marine Life</h2>
+      <figure>
+        <img src="images/Coral reef.avif" alt="Colorful coral reef" width="400">
+        <figcaption>Coral reefs provide shelter for thousands of marine species.</figcaption>
+      </figure>
+      <figure>
+        <img src="images/Whale.jpg" alt="A whale swimming in the deep ocean" width="400">
+        <figcaption>Whales play a key role in balancing the marine ecosystem.</figcaption>
+      </figure>
+      <figure>
+        <img src="images/Sea turtle.jpg" alt="A sea turtle swimming near the surface" width="400">
+        <figcaption>Sea turtles migrate thousands of kilometers every year.</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ocean Awareness Project | Designed for Accessibility</p>
+  </footer>
 </body>
 </html>
