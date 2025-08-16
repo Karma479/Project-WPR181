@@ -7,28 +7,57 @@
     <link rel="stylesheet" href="Home.css">
 </head>
 <body>
-    <header>
-        <h1>Ocean Awareness</h1>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Explore.html">Explore</a></li>
-                <li><a href="tips.html">Tips</a></li>
-                <li><a href="Quizzes.html">Quizzes</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+   <!-- Header contains site title and navigation -->
+  <header>
+    <!-- Website title/logo (text logo is more accessible) -->
+    <h1>Ocean Awareness</h1>
 
-    <main>
-        <section>
-            <h2>Welcome to Ocean Awareness</h2>
-            <p>Our oceans cover more than 70% of Earth’s surface and are home to millions of species. <br>This website teaches you fascinating facts, ways to protect the ocean, and tests your knowledge with quizzes!</p>
-            <img src="Deepsea.jpeg" alt="Blue ocean waves under the sun" width="600">
-        </section>
-    </main>
+    <!-- Navigation menu using a semantic <nav> tag -->
+    <nav>
+      <!-- Menu created with a list for accessibility and structure -->
+      <ul>
+        <li><a href="Home.html" aria-current="page">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="quizzes.html">Quizzes</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <footer>
+  <!-- Main content of the homepage -->
+  <main>
+    <!-- Introductory section -->
+    <section>
+      <h2>Welcome to Ocean Awareness</h2>
+      <p>Our oceans cover more than 70% of Earth’s surface and are home to millions of species. 
+      This website teaches you fascinating facts, ways to protect the ocean, and quizzes to test your knowledge.</p>
+    </section>
+
+    <!-- Section explaining importance of oceans -->
+    <section>
+      <h2>Why Oceans Matter</h2>
+      <ul>
+        <li>The ocean produces over half of the world’s oxygen.</li>
+        <li>It regulates the Earth’s climate by absorbing heat.</li>
+        <li>Billions of people rely on the ocean for food and livelihoods.</li>
+      </ul>
+      <!-- Image wrapped in a <figure> for semantic meaning -->
+      <figure>
+        <img src="images/Ocean.jpg" alt="Blue waves of the ocean under the sun" width="600">
+        <figcaption>The ocean is Earth’s life support system.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Aside: additional information not central but interesting -->
+    <aside>
+      <h2>Did You Know?</h2>
+      <p>The deepest part of the ocean is the Mariana Trench, which goes down about 11,000 meters (36,000 feet)!</p>
+    </aside>
+  </main>
+
+  <!-- Footer with copyright -->
+  <footer>
     <p>&copy; 2025 Ocean Awareness Project | Designed for Accessibility</p>
   </footer>
 </body>
